@@ -1,3 +1,0 @@
-# ethnow.github.io
-
-hello
