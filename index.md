@@ -26,6 +26,7 @@ In the diagram below, the high-level architecture is represented, where a Servic
 ServiceNow Dapp (distributed applications) can be developed leveraging ethnow. As part of the ethnow project a sample NowToken application.
 
 Three types of interactions are implemented by ethspoke:
+- Deploy smart contract
 - Invoke method (send)
 - Call method (call)
 
