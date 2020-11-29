@@ -1,4 +1,4 @@
-# Overviw
+# Overview
 
 ethnow aims to create a production-ready Ethereum integration for ServiceNow. 
 
