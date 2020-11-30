@@ -3,3 +3,4 @@ description: The Ethereum Integration for ServiceNow
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
+show_downloads: false
