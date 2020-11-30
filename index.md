@@ -69,12 +69,14 @@ The ethnow spoke talk with the Ethereum node(s) through the node JSON-RPC API.
 
 ## How to install 
 
-
+You can:
+- fork the repos as described under in How to Contribute
+- you can install the update set provided on ...
 
 
 ## How to use
 
-How to install the update set on a new instance (ie dev instance)
+To install the applications 
 
 How to submit the main workflow using the pre-packaged smart contract
 
@@ -87,6 +89,8 @@ Connect to your instace or provision a new dev instance
 On each repository, create a brance named sn_instances/<dev_instance_name>
 
 Open studio and create a local application from the repos under your GitHub account
+
+From that point you can start using the spoke and the example application (NowToken).
 
 Make any modification to the applications
 
