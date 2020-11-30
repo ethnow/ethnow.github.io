@@ -30,7 +30,7 @@ Three types of interactions are implemented by ethspoke:
 - Invoke method (send)
 - Call method (call)
 
-![Architecture](ethspoke_arch.png)
+![Architecture](ethnow_arch.png)
 
 ## Detailed description
 
@@ -80,6 +80,16 @@ How to submit the main workflow using the pre-packaged smart contract
 
 ## How to contribute
 
-How to link a new instance to the repo
+Fork the ethsign, ethspoke and nowtoken repositories under your github account
 
-How to send pull request to the project
+Connect to your instace or provision a new dev instance
+
+On each repository, create a brance named sn_instances/<dev_instance_name>
+
+Open studio and create a local application from the repos under your GitHub account
+
+Make any modification to the applications
+
+Commit changes to your repos
+
+From a repo, open the pull request
