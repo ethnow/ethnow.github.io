@@ -80,20 +80,4 @@ To install the applications
 
 How to submit the main workflow using the pre-packaged smart contract
 
-## How to contribute
 
-Fork the ethsign, ethspoke and nowtoken repositories under your github account
-
-Connect to your instace or provision a new dev instance
-
-On each repository, create a brance named sn_instances/<dev_instance_name>
-
-Open studio and create a local application from the repos under your GitHub account
-
-From that point you can start using the spoke and the example application (NowToken).
-
-Make any modification to the applications
-
-Commit changes to your repos
-
-From a repo, open the pull request
