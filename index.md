@@ -6,7 +6,7 @@ The integration works with the public Ethereum networks as well as private netwo
 
 EthNow is focused on a server-side implementation.
 
-The client-side integration is also doable and desirable. Check [this link](https://www.linkedin.com/pulse/servicenow-non-fungible-tokens-enterprise-ethereum-nicola-attico/) for an example of a client side integration using MetaMask.
+The client-side integration is also doable and desirable. Check [this link](https://www.linkedin.com/pulse/servicenow-non-fungible-tokens-enterprise-ethereum-nicola-attico/) for an example of a client-side integration using MetaMask.
 
 All modules can operate in a totally self-contained way withing the ServiceNow instance, without the need of any external component, including the MID server.
 
