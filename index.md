@@ -17,15 +17,15 @@ The project contains the following repositories:
 
 ## High-level architecture
 
-EthNow is made of two scoped applications for ServiceNow
+EthNow is made of two ServiceNow scoped applications:
 - ethsign, which is an Ethereum signer built in ServiceNow. Ethsign implements a permissioned approach to blockchain, where each user can access a defined set of key pairs that are stored in the ServiceNow instance.
 - ethspoke, which is the actual integration that can enable an ecosystem of ServiceNow based DApps, enabling blockchain users and developers to leverage the low-code capabilities of the Now Platform
 
 In the diagram below, the high-level architecture is represented, where a ServiceNow Dapp interact with the Ethereum node through ethspoke. Ethspoke uses ethsign in order to sign transactions and talk with the node via JSON-RPC APIs. Multiple instances can connect to different blockchain nodes, that will need to reach consensus for state-changing interactions. 
 
-ServiceNow Dapp (distributed applications) can be developed leveraging ethnow. As part of the ethnow project a sample NowToken application.
+ServiceNow Dapps (distributed applications) can be developed leveraging ethnow. As part of the ethnow project a sample NowToken application is provided.
 
-Three types of interactions are implemented by ethspoke:
+The following interactions are implemented by EthSpoke:
 - Deploy smart contract
 - Invoke method (send)
 - Call method (call)
@@ -67,17 +67,15 @@ The following libraries have been adapted/polyfilled to the ServiceNow javascrip
 
 The ethnow spoke talk with the Ethereum node(s) through the node JSON-RPC API.
 
-## How to install 
-
-You can:
-- fork the repos as described under in How to Contribute
-- you can install the update set provided on ...
-
-
 ## How to use
 
-To install the applications 
+### How to install
+You can install the update set provided on ...
 
+### How to test
 How to submit the main workflow using the pre-packaged smart contract
+
+### How to contribute
+
 
 
