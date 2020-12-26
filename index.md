@@ -2,9 +2,9 @@
 
 The EthNow project aims to create a production-ready Ethereum integration for ServiceNow. 
 
-The integration works with the public Ethereum networks as well as private networks based on Ethereum compatible software like Consensys Quorum and Hyperledger Besu.
+The integration works with the public Ethereum networks as well as private networks based on Ethereum-compatible enterprise blockchain clients like Consensys Quorum and Hyperledger Besu.
 
-EthNow is focused on a server-side implementation.
+EthNow is focused on a server-side implementation based on [Flow Designer](https://docs.servicenow.com/bundle/paris-servicenow-platform/page/administer/flow-designer/concept/flow-designer.html) and [Integration Hub](https://docs.servicenow.com/bundle/paris-servicenow-platform/page/administer/integrationhub/concept/integrationhub.html).
 
 The client-side integration is also doable and desirable. Check [this link](https://www.linkedin.com/pulse/servicenow-non-fungible-tokens-enterprise-ethereum-nicola-attico/) for an example of a client-side integration using MetaMask.
 
