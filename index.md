@@ -65,6 +65,9 @@ The following libraries have been adapted/polyfilled to the ServiceNow javascrip
 |ethjs-format| Payload formatter for the Ethereum RPC layer ||
 |ethjs-unit| Manage crypto units | Need to set Buffer.TYPED_ARRAY_SUPPORT = false;|
 
+Libraries' global variables have been mangles using [obfuscator.io](https://obfuscator.io/) using this configuration:
+
+![Obfuscator Config](obfuscator_config.png)
 
 The ethnow spoke talk with the Ethereum node(s) through the node JSON-RPC API.
 
