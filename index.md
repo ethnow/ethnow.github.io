@@ -57,12 +57,13 @@ The ethnow project uses the primitives provided by the [ethjs](https://github.co
 
 The following libraries have been adapted/polyfilled to the ServiceNow javascript engine (Rhino 1.7R5 as of the Paris release) and embedded in the applications as script include:
 
-| Library | Purpose |
-|---|---|
-|ethjs-signer| Sign Ethereum transactions|
-|ethjs-account| Generate key pairs and manage accounts|
-|ethjs-abi| Encoding and decoding utilities|
-|ethjs-format| Payload formatter for the Ethereum RPC layer |
+| Library | Purpose | Adaptations |
+|---|---|---!
+|ethjs-signer| Sign Ethereum transactions||
+|ethjs-account| Generate key pairs and manage accounts||
+|ethjs-abi| Encoding and decoding utilities||
+|ethjs-format| Payload formatter for the Ethereum RPC layer ||
+|ethjs-unit| Manage crypto units | Need to set Buffer.TYPED_ARRAY_SUPPORT = false;|
 
 
 The ethnow spoke talk with the Ethereum node(s) through the node JSON-RPC API.
