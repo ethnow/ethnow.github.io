@@ -71,7 +71,7 @@ Libraries' global variables have been mangles using [obfuscator.io](https://obfu
 
 The ethnow spoke talk with the Ethereum node(s) through the node JSON-RPC API.
 
-##Security
+## Security
 
 
 
