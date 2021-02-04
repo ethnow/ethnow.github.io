@@ -77,13 +77,3 @@ The ethnow spoke talk with the Ethereum node(s) through the node JSON-RPC API.
 
 ## How to use
 
-### How to install
-You can install the update set provided on ...
-
-### How to test
-How to submit the main workflow using the pre-packaged smart contract
-
-### How to contribute
-
-
-
